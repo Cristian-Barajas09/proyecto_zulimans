@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nany Estilos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Stylos.css" />
+
+</head>
+<body>
+<header>
+    <div class="container">
+        <p class="logo">Nany Estilos</p>
+        <nav class="nav">
+            <a href="/html/registrarse.html" id="enlace1">registrarse</a>
+            <a href="#programas" id="enlace2">Nuestros Servicios</a>
+            <a href="#caracteristicas" id="enlace3">Informacion General</a>
+            
+        <div class="btn-pagar">
+            <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
+        </div>
+    </nav>
+    </div>
+</header>
+
+
+<main>
+    <div class="page-content" id="productos">
+        <div class="product-container">
+            <h3>Pulsera con Mariposas Azules</h3>
+            <img src="../img/img1.jpeg" />
+            <h1>$5</h1>
+            <button class="button-add" onclick="add('Cancelas+5', 5)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Pulseras Unicolores</h3>
+            <img src="../img/img2.jpeg" />
+            <h1>$3</h1>
+            <button class="button-add" onclick="add('Cancelas+3', 3)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Collar y Pulsera</h3>
+            <img src="../img/img3.jpeg" />
+            <h1>$2</h1>
+            <button class="button-add" onclick="add('Cancelas+2', 2)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Pulseras Unicolores</h3>
+            <img src="../img/img12.jpeg" />
+            <h1>$2</h1>
+            <button class="button-add" onclick="add('Cancelas+2', 2)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Pulsera En Rosado </h3>
+            <img src="../img/img4.jpeg" />
+            <h1>$1</h1>
+            <button class="button-add" onclick="add('Cancelas+1', 1)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Collar mas Pulsera Personalizada</h3>
+            <img src="../img/img16.jpeg" />
+            <h1>$6</h1>
+            <button class="button-add" onclick="add('Cancelas+6', 6)">Agregar</button>
+        </div>
+    </div>
+   </main>
+    
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../image/media/El texto del párrafo.png" alt="" class="pie-logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Sobre Nosotros</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatum?</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="facebook"><img src="../icon/facebook.svg" alt="" ></a>
+                    <a href="#"  class="instagram"><img src="../icon/instagram.svg" alt=""></a>
+                    <a href="#" class="whats"><img src="../icon/whatsapp.svg" alt="" ></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Nany Estilos</b> - Todos los Derechos Reservados</small>
+        </div>
+    </footer>
+    <script src="../js/scrypt.js"></script>
+</body>
+
+</html>

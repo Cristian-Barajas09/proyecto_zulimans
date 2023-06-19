@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+body {
+    margin: 0px;
+    background-color: #90e0ef;
+    font-family: 'Nerko One', cursive;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 50px;
+    border-color: red;
+}
+
+.nav {
+    width: 100%;
+    position: absolute;
+    width: 90%;
+    right: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 30;
+    
+}
+.logo {
+    position: absolute;
+    width: 50%;
+    font-size: 30px;
+}
+
+.btn-pagar {
+    margin-top: 35px;
+}
+
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+header{
+    position: relative;
+    margin: 10px;
+}
+
+main {
+    margin: 10px;
+}
+.page-nav {
+    display: flex;
+}
+
+
+
+.button-checkout {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA; /* Blue */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    cursor:pointer
+}
+
+.button-checkout:hover {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-container img {
+    width: 300px;
+}
+
+.product-container h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.button-add {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    cursor: pointer;
+}
+  
+.button-add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+/*Footer*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: #ffafcc;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* poner las 3 columnas*/
+    grid-gap: 50px; /*ajustar tamaño de columnas*/
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 30px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #f4978e;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+#botones{
+    border-radius: 100% !important;
+} 
+
+.pie-pagina .grupo-2{
+    background-color: #f4978e;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+.red-social a img{
+    filter: invert(99%) sepia(99%) saturate(2%) hue-rotate(241deg) brightness(103%) contrast(101%);
+}
+.facebook:hover{
+    background: #00c6ff;  
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  
+    background: linear-gradient(to right, #0072ff, #00c6ff); 
+}
+.what:hover{
+    background:#25D366;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.instagram:hover{
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
