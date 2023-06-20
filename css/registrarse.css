@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Nerko One', cursive;
+}
+
+
+
+.container {
+    background-color: rgba(10, 15, 9, 0.7); 
+    color: rgba(10, 15, 9, 0.7);
+    width: 450px;
+    height: 52vh;
+    justify-content: center;
+    margin: 150px 5px 5px 490px;
+}
+
+.title {
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    font-size: 25px;
+    color: white;
+}
+
+input {
+    padding: 8px 8px 8px 8px;
+    margin: 5px 3px 10px 3px;
+    border-radius: 10px;
+}
+
+.name {
+    margin-left: 1%;
+    
+}
+
+.lastname {
+    margin-left: 50%;
+    margin-top: -12%;
+
+}
+
+.email {
+    margin-left: 28%;
+}
+
+.password {
+    margin-left: 13%;
+}
+
+.dolor_de_cabeza {
+    margin-left: 14%; 
+}
+
+.register {
+    margin-left: 40%;
+    font-size: 50px;
+}
+
+.title_2 {
+    margin-left: 30%;
+    color: white;
+}
+

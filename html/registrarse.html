@@ -3,43 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/registrarse.css">
     <title>Registro</title>
 </head>
 <body>
-    <form>
-        <div>
-            Registrase
+<form >
+    <div class="container">
+        <div class="title">
+            <p>Registrase</p>
             <span id="mensaje"></span>
         </div>
-        <div>
-            <label for="name">nombre</label>
-            <input type="text" id="name">
+        <div class="name">
+            <input type="text" id="name" placeholder="Nombre">
         </div>
-        <div>
-            <label for="lastname">apellido</label>
-            <input type="text" id="lastname">
+        <div class="lastname">
+            <input type="text" id="lastname" placeholder="Apellido">
         </div>
-        <div>
-            <label for="email">correo</label>
-            <input type="email" id="email">
+        <div class="email">
+            <input type="email" id="email" placeholder="email">
         </div>
-        <div>
-            <label for="password">contraseña</label>
-            <input type="password" id="password">
+        <div class="password">
+            <input type="password" id="password" placeholder="contraseña">
             <button id="mostrar1">Mostrar contraseña</button>
         </div>
-        <div>
-            <label for="confirmPassword">confirmar contraseña</label>
-            <input type="password" id="confirmPassword">
+        <div class="confirmPassword>
+            <label for="confirmPassword"></label>
+            <input class=dolor_de_cabeza type="password" id="confirmPassword" placeholder="confirm_contraseña">
             <button id="mostrar2">Mostrar contraseña</button>
         </div>
-        <div>
+        <div class="register">
             <input type="submit" value="registrarse" id="btn">
         </div>
-        <div>
+        <div  class="title_2">
             <p>ya estas registrado? <a href="./ingresar.html">ingresar</a></p>
         </div>
-    </form>
+    </div>
+</form>
     <script src="../js/registro.js"></script>
 </body>
 </html>
