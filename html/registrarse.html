@@ -1,45 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
     <link rel="stylesheet" href="../css/registrarse.css">
-    <title>Registro</title>
 </head>
+
 <body>
-<form >
-    
-    <div class="container">
-        <div class="title">
-            <p>Registrase</p>
-            <span id="mensaje"></span>
+    <section class="form-main">
+        <div class="form-content">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div class="circle-3"></div>
+            <div class="box">
+                <h3>Bienvenido Nan<span>y</span> Estilo<span>s</span></h3>
+                <form action="">
+                    <div class="input-box">
+                        <input type="text" placeholder="name" class="input-control">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="lastname" class="input-control">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Email" class="input-control">
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" class="input-control">
+                    </div>
+                    <button type="submit" class="btn">Registrarse</button>
+                    <p> <a href="../html/ingresar.html">Si ya tienes cuenta presiona aqui!!</a></p>
+                </form>
+            </div>
         </div>
-        <div class="name">
-            <input type="text" id="name" placeholder="Nombre">
-        </div>
-        <div class="lastname">
-            <input type="text" id="lastname" placeholder="Apellido">
-        </div>
-        <div class="email">
-            <input type="email" id="email" placeholder="email">
-        </div>
-        <div class="password">
-            <input type="password" id="password" placeholder="contraseña">
-            <button id="mostrar1">Mostrar contraseña</button>
-        </div>
-        <div class="confirmPassword>
-            <label for="confirmPassword"></label>
-            <input class=dolor_de_cabeza type="password" id="confirmPassword" placeholder="confirm_contraseña">
-            <button id="mostrar2">Mostrar contraseña</button>
-        </div>
-        <div class="register">
-            <input type="submit" value="registrarse" id="btn">
-        </div>
-        <div  class="title_2">
-            <p>ya estas registrado? <a href="./ingresar.html">ingresar</a></p>
-        </div>
-    </div>
-</form>
-    <script src="../js/registro.js"></script>
+    </section>
 </body>
+
 </html>

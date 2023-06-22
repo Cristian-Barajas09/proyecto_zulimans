@@ -182,8 +182,8 @@ span {
 }
 
 button {
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 15px;
+    padding-top: 30px;
 }
 
 .form-content .btn{
@@ -225,10 +225,13 @@ button {
     background-color: var(--button-hover-color);
 }
 
-.form-content p a{
-    margin-top: 25px;
-    margin-left: 60px;
-    color: #ffffff !important;
+.form-content p {
+    margin-left: 50px;
+}
+
+.form-content a {
+    margin-left: 50px;
+    color: #ffffff;
 }
 
 
