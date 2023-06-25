@@ -21,13 +21,12 @@ function registro(e){
     e.preventDefault()
 
     if(!nombre.value || !apellido.value || !correo.value || !password.value){
-        // mensaje.innerText = "por favor rellene todos los campos"
-        console.log("rellene todos los campos")
-     }//else if(password.value != confirmar.value) {
-    //     // mensaje.innerText = "las contraseñas no son iguales"
-    //     console.log("")
-    else {
-        // mensaje.innerHTML = ""
+        mensaje.innerText = "por favor rellene todos los campos"
+        // console.log("rellene todos los campos")
+    }else if(password.value != confirmar.value) {
+        mensaje.innerText = "las contraseñas no son iguales"
+    }else {
+        mensaje.innerHTML = ""
 
         localStorage.setItem("nombre",nombre.value)
         localStorage.setItem("apellido",apellido.value)
