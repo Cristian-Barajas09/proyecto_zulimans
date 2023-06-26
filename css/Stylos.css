@@ -384,6 +384,10 @@ header.sticky{
     background:transparent;
 }
 
+.grupo-2 {
+	margin-left: 30%;
+	font-size: 20px;
+}
 
 
 @media (max-width: 1480px){
