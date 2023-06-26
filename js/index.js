@@ -1,5 +1,16 @@
-const header = document.querySelector("header");
-const btn_navbar = document.getElementById('btn-navbar')
+let header = document.querySelector("header");
+let btn_navbar = document.getElementById('btn-navbar')
+
+let enlace1 = document.getElementById("enlace1")
+let enlace2 = document.getElementById("enlace2")
+
+if(!localStorage.getItem("autorizado")){
+	enlace1.innerText = "Ingresar"
+	enlace2.innerText = "Registro"
+
+}
+
+
 
 const user = ()=>{
 	window.location.href="/profile"

@@ -330,7 +330,9 @@ header.sticky{
 }
 
 
-
+#enlace1 {
+	cursor:pointer;
+}
 
 
 .page-content {

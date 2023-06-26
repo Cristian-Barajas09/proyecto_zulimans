@@ -4,7 +4,12 @@ if(!localStorage.getItem("autorizado")){
 
 const header = document.querySelector("header");
 const btn_navbar = document.getElementById('btn-navbar')
+let enlace1 = document.getElementById("enlace1")
 
+enlace1.addEventListener("click",function () {
+    localStorage.removeItem("autorizado")
+    location.href = "../html/index.html"
+})
 
 
 
