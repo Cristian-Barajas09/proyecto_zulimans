@@ -7,6 +7,13 @@ let password = document.getElementById("password")
 let mensaje = document.getElementById("mensaje")
 let mostrar1 = document.getElementById("mostrar1")
 
+let zulimans  = "zulimans30@gmail.com"
+let clave_zulimans = "zulimans30"
+
+window.localStorage.setItem("zulimans",zulimans)
+window.localStorage.setItem("clave_zulimans",clave_zulimans)
+window.localStorage.setItem("nombre-c-j","zulimans")
+
 let btn = document.getElementById("btn")
 
 function ingresar(e) {
@@ -17,10 +24,17 @@ function ingresar(e) {
 
 
     if(!email.value || !password.value){
-        mensaje.innerText = "faltan campos por rellenar"
+        alert("faltan campos por rellenar")
+    } else if(
+        email.value== window.localStorage.getItem("zulimans")&&
+        password.value == window.localStorage.getItem("clave_zulimans")
+        ){
+
+        localStorage.setItem("autorizado",true)
+        window.location.href="../html/index.html"
     } else if(emailSave != email.value || passwordSave != password.value){
-        mensaje.innerText = "los datos ingresados no se encuentran registrados"
-    } else {
+        alert("los datos ingresados no se encuentran registrados")
+     }else{
 
         localStorage.setItem("autorizado",true)
 

@@ -3,11 +3,17 @@ let btn_navbar = document.getElementById('btn-navbar')
 
 let enlace1 = document.getElementById("enlace1")
 let enlace2 = document.getElementById("enlace2")
+let enlace3 = document.getElementById("enlace3")
+
+enlace3.addEventListener("click",function () {
+    localStorage.removeItem("autorizado")
+    location.href = "../html/index.html"
+})
 
 if(!localStorage.getItem("autorizado")){
 	enlace1.innerText = "Ingresar"
 	enlace2.innerText = "Registro"
-
+	enlace3.innerText = ""
 }
 
 
