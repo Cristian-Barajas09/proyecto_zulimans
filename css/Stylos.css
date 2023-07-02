@@ -85,6 +85,13 @@ section {
     align-items: center;
     justify-content: flex-start;
 }
+.content-title {
+	position:relative;
+	top:100px;
+}
+.title {
+	text-align:center;
+}
 .slide {
     margin-bottom: 20px;
 }
